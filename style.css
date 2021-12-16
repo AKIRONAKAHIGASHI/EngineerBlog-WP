@@ -1,0 +1,17 @@
+/*
+Theme Name: Engineer Blog
+Description:独自テンプレート作成用
+Theme URI: engineerblog
+Author: akizo
+Author URI: xxx
+*/
+
+.inner{
+    background-color: midnightblue;
+    height: 100%;
+    color: snow;
+}
+
+h1{
+    color: antiquewhite;
+}
