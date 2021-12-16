@@ -12,6 +12,14 @@ Author URI: xxx
     color: snow;
 }
 
+.content{
+    display: flex;
+    align-items: center;
+    padding: 32px 0 0 32px;
+}
+
 h1{
     color: antiquewhite;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding-left: 8px;
 }
