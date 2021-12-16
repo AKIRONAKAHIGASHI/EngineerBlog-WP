@@ -20,7 +20,7 @@
 <div class="inner">
     <div class="content">
     <span class="material-icons-outlined">rocket_launch</span>
-        <h1>ブログのテーマ作り、①からスタートします</h1>
+        <h1>ブログのテーマ作り、①からスタートします!!</h1>
     </div>
 </div>
 
