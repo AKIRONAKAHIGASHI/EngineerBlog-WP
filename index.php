@@ -4,10 +4,11 @@
 
 
 <title>あきぞー部屋</title>
-<meta name="description" content="うさぎ帝国!!!">
+<meta name="description" content="WordPress独自テンプレートの作成のためのWEB制作です。" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/reset.css">
-<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <!-- BootStrap -->
@@ -18,14 +19,13 @@
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet">
-<meta name="description" content="サイトの概要">
-
+<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
 </head>
 
 <body>
 
 <!-- BootStrap -->
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #516C9D;">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
   <a class="navbar-brand icon" href="#">あきぞー部屋<span class="material-icons-outlined">sports_tennis</span></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -41,16 +41,18 @@
         <a class="nav-link" href="#">Blog</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Output用</a>
+        <a class="nav-link" href="#">Output</a>
       </li>
     </ul>
   </div>
 </nav>
 
+<div class="top-img"></div>
+
 <div class="inner">
     <div class="content">
     <span class="material-icons-two-tone">rocket_launch</span>
-        <h1>ブログのテーマ作り、①からスタートします!!</h1>
+        <h2>ブログのテーマ作り、①からスタートします!!</h2>
     </div>
 </div>
 

@@ -7,12 +7,31 @@ Author URI: xxx
 */
 
 body{
-    font-family: 'M PLUS Rounded 1c', sans-serif !important;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.navbar-light .navbar-brand{
+    color: darkred;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: darkred;
+}
+
+.navbar {
+    position: absolute;
 }
 
 .icon{
-    display: flex !important;
+    display: flex;
     align-items: center;
+}
+
+.top-img {
+    height: 100vh;
+    background: url(img/top-img.jpg) no-repeat center center;
+    background-size: cover;
+    opacity: 0.5;
 }
 
 .inner{
@@ -24,11 +43,10 @@ body{
 .content{
     display: flex;
     align-items: center;
-    padding: 32px 0 0 32px;
+    padding: 32px 16px 0 16px;
 }
 
-h1{
+h2{
     color: black;
-    /* font-family: 'M PLUS Rounded 1c', sans-serif; */
     padding-left: 8px;
 }
