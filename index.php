@@ -4,6 +4,7 @@
 
 
 <title>あきぞー部屋</title>
+<meta name="description" content="うさぎ帝国!!!">
 
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/reset.css">
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
