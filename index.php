@@ -3,23 +3,49 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 
-<title>エンジニアブログの開設に向けて</title>
+<title>あきぞー部屋</title>
 
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/reset.css">
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- BootStrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet">
 <meta name="description" content="サイトの概要">
 
-
 </head>
 
 <body>
+
+<!-- BootStrap -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #516C9D;">
+  <a class="navbar-brand icon" href="#">あきぞー部屋<span class="material-icons-outlined">sports_tennis</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+        <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Output用</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 <div class="inner">
     <div class="content">
-    <span class="material-icons-outlined">rocket_launch</span>
+    <span class="material-icons-two-tone">rocket_launch</span>
         <h1>ブログのテーマ作り、①からスタートします!!</h1>
     </div>
 </div>

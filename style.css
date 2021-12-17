@@ -6,8 +6,17 @@ Author: akizo
 Author URI: xxx
 */
 
+body{
+    font-family: 'M PLUS Rounded 1c', sans-serif !important;
+}
+
+.icon{
+    display: flex !important;
+    align-items: center;
+}
+
 .inner{
-    background-color: midnightblue;
+    background-color: #DEDEDE;
     height: 100%;
     color: snow;
 }
@@ -19,7 +28,7 @@ Author URI: xxx
 }
 
 h1{
-    color: antiquewhite;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: black;
+    /* font-family: 'M PLUS Rounded 1c', sans-serif; */
     padding-left: 8px;
 }
