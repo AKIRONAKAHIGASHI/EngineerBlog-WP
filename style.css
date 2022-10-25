@@ -35,21 +35,214 @@ body{
 }
 
 .inner{
-    background-color: #DEDEDE;
-    height: 100%;
-    color: snow;
+    background-color: #FFFFCC;
+    /*height: 100%;*/
+    /*color: snow;*/
 }
 
 .content{
-    display: flex;
+    /*display: flex;*/
     align-items: center;
-    padding: 48px 16px 0 16px;
+    padding: 32px 16px 0 16px;
+}
+
+h1{
+    color: black;
 }
 
 h2{
-    color: black;
-    padding-left: 8px;
+    color: #666666;
+    margin-bottom: 0;
 }
+
+.content ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 0;
+}
+
+.content ul li {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 10%);
+    background-color: #ffffff;
+}
+
+.content ul li img {
+    width: 100%;
+}
+
+.blog_list {
+    background-color: #ffc107;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 13px 15px;
+    font-size: 18px;
+    color: #666666;
+}
+
+.blog_list_content {
+    padding: 15px;
+}
+
+.blog_date span{
+    display: inline-block;
+    padding-bottom: 3px;
+    color: #757575;
+    font-size: 14px;
+}
+
+.blog_title h2{
+    height: 85px;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.blog_category {
+    padding: 15px;
+    border-top: 1px solid #e8e8e8;
+}
+
+.blog_category p{
+    font-size: 14px;
+    display: inline-block;
+    border: 1px solid #7f92a7;
+    color: #7f92a7;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0;
+}
+
+.inner.task_admin, .inner.blog{
+    height: 100%;
+    background-color: #FFF;
+}
+
+.inner.task_admin .content {
+    padding-top: 48px;
+}
+
+.inner.task_admin .content h2, .inner.blog .content h2{
+    padding: 16px 0 16px 0;
+}
+
+.task_input {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.task_input div {
+    display: inline-block;
+    position: fixed;
+    height: 30%;
+    width: 75%;
+    z-index: 999999999999;
+    background: #fff;
+    padding: 2%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: end;
+}
+
+
+#table {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+  height: 85%;
+}
+
+
+#table .task_contents {
+  background-color: #FCED90;
+  border-radius: 24px 24px 24px 24px;
+  width: 75%;
+  margin: 24px;
+  flex-shrink: 0;
+}
+
+#table .task_contents .task_content_header {
+  height: 16px;
+  border-radius: 24px 24px 0px 0px;
+}
+
+#table .task_contents .task_content_header.todo {
+  background-color: #D1DA95;
+}
+
+#table .task_contents .task_content_header.done {
+  background-color: #6EB7CF;
+}
+
+#table .task_contents .task_content_title{
+  margin: 16px;
+}
+
+#table .task_contents .task_new {
+  text-align: center;
+}
+
+#table .task_contents .task_new button{
+  width: 90%;
+  background-color: cornsilk;
+  border-radius: 8px;
+}
+
+#table .task_contents .task_new span{
+  vertical-align: middle;
+}
+
+#table .task_contents .task_list {
+  height: 72%;
+  /*background-color: aquamarine;*/
+  margin: 16px;
+  overflow: auto;
+}
+
+#table .task_contents .task_list li{
+  height: 25%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 8px;
+  background-color: cornsilk;
+}
+
+.task_input textarea {
+  resize: none;
+  height: 80%;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.task_input button {
+  margin-top: 8px;
+  border-radius: 8px;
+  width: 25%;
+}
+
+/*#table h2 {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+#table li {
+  margin: 2rem 2rem 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}*/
 
 /* フッター */
 #footer{
@@ -58,7 +251,7 @@ h2{
     color: #fff;
     text-align: center;
     padding: 30px 0;
-  }
+}
 
 /* ローディング */
 .loading {
@@ -72,14 +265,14 @@ h2{
     z-index: 9999;
     opacity: 1;
     visibility: visible;
-  }
-  
-  .loading.is-active {
+}
+
+.loading.is-active {
     opacity: 0;
     visibility: hidden;
-  }
-  
-  .loading-animation {
+}
+
+.loading-animation {
     width: 100vw;
     height: 100vh;
     transition: all 1s;
@@ -90,9 +283,11 @@ h2{
     justify-content: center;
     opacity: 0;
     visibility: hidden;
-  }
-  
-  .loading-animation.is-active {
-    opacity: 1;
-    visibility: visible;
-  }
+}
+
+@media screen and (min-width: 768px) {
+
+.content ul li {
+    width: calc(25% - 20px);
+
+}

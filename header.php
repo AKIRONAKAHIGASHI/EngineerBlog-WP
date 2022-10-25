@@ -19,6 +19,7 @@
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/loading.js"></script>
 </head>
