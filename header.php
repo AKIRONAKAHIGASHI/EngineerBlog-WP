@@ -48,6 +48,9 @@
       <li class="nav-item">
         <a class="nav-link" href="<?php echo get_template_directory_uri(); ?>/output">Output</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo get_template_directory_uri(); ?>/pokemon">Pokemon</a>
+      </li>
     </ul>
   </div>
 </nav>
