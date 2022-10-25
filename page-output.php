@@ -39,7 +39,6 @@
   </div>
 </div>
 
-<?php get_footer(); ?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/todo.js"></script>
 </body>
 </html>
