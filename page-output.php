@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<!-- bottom navigation -->
+<div style="margin-top: 60px;margin-left: 16px;">※メニュー作成中</div>
 
 <ul class="bottom-menu">
     <li>
