@@ -337,8 +337,8 @@ ul.bottom-menu li {
 
 .flooting_btn {
   position: fixed;
-  bottom: 70px;
-  right: 30px;
+  bottom: 75px;
+  right: 25px;
   background-color: #91C16D;
   border: 0;
   border-radius: 50%;
@@ -349,8 +349,8 @@ ul.bottom-menu li {
     color: white;
     display: block;
     font-size: 2em;
-    line-height: 1.8em;
-    width: 1.5em;
+    line-height: 60px;
+    width: 50px;
 }
 
 @media screen and (min-width: 768px) {
