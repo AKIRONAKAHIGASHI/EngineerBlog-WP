@@ -296,9 +296,67 @@ h2{
     visibility: hidden;
 }
 
+.mini-text{font-size:10px;}/*文字大きさ*/
+
+ul.bottom-menu {
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+    height:45px;/*高さ*/
+    margin:0;
+    padding:0;
+    background-color:beige;/*背景色*/
+    border-top:2px solid #808080;/*バーの上の線*/
+    /* border-bottom:2px solid #808080; */
+    z-index:30;
+}
+
+ul.bottom-menu li {
+    float:left;
+    width:25%;
+    background-color:beige;/*背景色*/
+    list-style-type:none;
+    text-align:center;
+    font-size:25px;/*アイコンのサイズ*/
+}
+
+
+.bottom-menu li a {
+    display: block;
+    color:#808080;/*アイコン＆文字の色*/
+    padding-top:10px;
+    padding-bottom:5px;
+    line-height:10px;
+    text-decoration:none;
+}
+
+.bottom-menu li a:hover {
+    color:#a9a9a9;/*マウスオーバー時の色*/
+}
+
+.flooting_btn {
+  position: fixed;
+  bottom: 70px;
+  right: 30px;
+  background-color: #91C16D;
+  border: 0;
+  border-radius: 50%;
+  box-shadow: rgb(0 0 0 / 13%) 2px 4px 0px;
+}
+
+.flooting_btn span {
+    color: white;
+    display: block;
+    font-size: 2em;
+    line-height: 1.8em;
+    width: 1.5em;
+}
+
 @media screen and (min-width: 768px) {
 
-.content ul li {
-    width: calc(25% - 20px);
+  .content ul li {
+      width: calc(25% - 20px);
 
+  }
 }
